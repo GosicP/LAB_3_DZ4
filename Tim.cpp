@@ -30,15 +30,15 @@ int Tim::getBrojIgraca() const {
     return broj_igraca;
 }
 
-bool Tim::operator==(Tim t) {
+bool Tim::operator==(Tim& t) {
     int broj_jednakih=0;
-    if(this->naziv==t.naziv && this->maks_broj_igraca==t.maks_broj_igraca){
-        for (int i=0; i<maks_broj_igraca; i++){
+    if(this->naziv==t.naziv && this->maks_broj_igraca==t.maks_broj_igraca && this->broj_igraca==t.broj_igraca){
+        for (int i=0; i<t.broj_igraca; i++){
             if(*this->niz[i] == *t.niz[i]){
                 broj_jednakih++;
             }
         }
-        if(broj_jednakih==maks_broj_igraca){
+        if(broj_jednakih==t.broj_igraca){
             return true;
         }else{
             return false;

@@ -46,7 +46,7 @@ public:
 
     double dohvVrednostTima();
 
-    bool operator==(Tim t);
+    bool operator==(Tim& t);
 
     friend ostream& operator << (ostream& os, Tim& t){
         t.pisi(os);
