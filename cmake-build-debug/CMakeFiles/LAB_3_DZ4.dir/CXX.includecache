@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Igrac.h
+iostream
+-
+
+C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/main.cpp
+iostream
+-
+Igrac.h
+C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Igrac.h
+
