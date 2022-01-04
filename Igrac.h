@@ -28,7 +28,7 @@ public:
     }
 
 
-    bool operator == (Igrac i){
+    bool operator == (Igrac& i){
         if(this->vrednost==i.vrednost && this->ime==i.ime){
             return true;
         }else{

@@ -11,6 +11,19 @@ private:
     int maks_broj_igraca, broj_igraca=0;
     double vrednost_tima;
     Igrac** niz;
+
+    virtual void pisi(ostream &os){
+        os<<naziv<<"[";
+        for (int i=0; i<broj_igraca; i++){
+            if(i!=broj_igraca-1){
+                os<<*niz[i]<<",";
+            }else{
+                os<<*niz[i];
+            }
+        }
+        os<<"]";
+    }
+
 public:
 
     Tim(string name, int max_players);
@@ -19,7 +32,7 @@ public:
     Tim(const Tim&& t);
     ~Tim();
 
-    void prikljuciIgraca(int i, Igrac* player){
+    void prikljuciIgraca(int i, Igrac *player){
         niz[i]=player;
         broj_igraca++;
     }
@@ -31,31 +44,13 @@ public:
         return player;
     }
 
-    double dohvVrednostTima(){
-        double temp_vrednost;
-        for(int i=0; i<broj_igraca; i++){
-            temp_vrednost=niz[i]->getVrednost();
-        }
-        vrednost_tima=temp_vrednost/broj_igraca;
-        return vrednost_tima;
-    }
+    double dohvVrednostTima();
 
-    bool operator==(Tim t){
-        int broj_jednakih=0;
-        if(this->naziv==t.naziv && this->maks_broj_igraca==t.maks_broj_igraca){
-            for (int i=0; i<maks_broj_igraca; i++){
-                if(this->niz[i] == t.niz[i]){
-                    broj_jednakih++;
-                }
-            }
-            if(broj_jednakih==maks_broj_igraca){
-                return true;
-            }else{
-                return false;
-            }
-        }else{
-            return false;
-        }
+    bool operator==(Tim t);
+
+    friend ostream& operator << (ostream& os, Tim& t){
+        t.pisi(os);
+        return os;
     }
 
 

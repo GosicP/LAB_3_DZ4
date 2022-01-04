@@ -29,3 +29,30 @@ Tim::Tim(string name, int max_players) {
 int Tim::getBrojIgraca() const {
     return broj_igraca;
 }
+
+bool Tim::operator==(Tim t) {
+    int broj_jednakih=0;
+    if(this->naziv==t.naziv && this->maks_broj_igraca==t.maks_broj_igraca){
+        for (int i=0; i<maks_broj_igraca; i++){
+            if(this->niz[i] == t.niz[i]){
+                broj_jednakih++;
+            }
+        }
+        if(broj_jednakih==maks_broj_igraca){
+            return true;
+        }else{
+            return false;
+        }
+    }else{
+        return false;
+    }
+}
+
+double Tim::dohvVrednostTima() {
+    double temp_vrednost=0;
+    for(int i=0; i<broj_igraca; i++){
+        temp_vrednost=temp_vrednost+niz[i]->getVrednost();
+    }
+    vrednost_tima=temp_vrednost/broj_igraca;
+    return vrednost_tima;
+}

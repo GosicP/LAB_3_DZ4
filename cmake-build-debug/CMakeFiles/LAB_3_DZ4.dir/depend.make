@@ -6,5 +6,6 @@ CMakeFiles/LAB_3_DZ4.dir/Tim.cpp.obj: ../Tim.cpp
 CMakeFiles/LAB_3_DZ4.dir/Tim.cpp.obj: ../Tim.h
 
 CMakeFiles/LAB_3_DZ4.dir/main.cpp.obj: ../Igrac.h
+CMakeFiles/LAB_3_DZ4.dir/main.cpp.obj: ../Tim.h
 CMakeFiles/LAB_3_DZ4.dir/main.cpp.obj: ../main.cpp
 
