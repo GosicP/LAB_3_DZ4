@@ -34,7 +34,7 @@ bool Tim::operator==(Tim t) {
     int broj_jednakih=0;
     if(this->naziv==t.naziv && this->maks_broj_igraca==t.maks_broj_igraca){
         for (int i=0; i<maks_broj_igraca; i++){
-            if(this->niz[i] == t.niz[i]){
+            if(*this->niz[i] == *t.niz[i]){
                 broj_jednakih++;
             }
         }
