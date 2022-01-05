@@ -85,13 +85,13 @@
 		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Igrac.h">
 			<Option target="LAB_3_DZ4"/>
 		</Unit>
-		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Par.cpp">
+		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Mec.cpp">
+			<Option target="LAB_3_DZ4"/>
+		</Unit>
+		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Mec.h">
 			<Option target="LAB_3_DZ4"/>
 		</Unit>
 		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Par.h">
-			<Option target="LAB_3_DZ4"/>
-		</Unit>
-		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Privilegovani.cpp">
 			<Option target="LAB_3_DZ4"/>
 		</Unit>
 		<Unit filename="C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Privilegovani.h">

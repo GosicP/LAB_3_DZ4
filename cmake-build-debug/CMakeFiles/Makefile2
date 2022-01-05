@@ -93,12 +93,12 @@ clean: CMakeFiles/LAB_3_DZ4.dir/clean
 CMakeFiles/LAB_3_DZ4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target LAB_3_DZ4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target LAB_3_DZ4"
 .PHONY : CMakeFiles/LAB_3_DZ4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LAB_3_DZ4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LAB_3_DZ4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/LAB_3_DZ4.dir/rule

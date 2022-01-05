@@ -102,51 +102,36 @@ CMakeFiles/LAB_3_DZ4.dir/Tim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_3_DZ4.dir/Tim.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Tim.cpp -o CMakeFiles\LAB_3_DZ4.dir\Tim.cpp.s
 
-CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.obj: CMakeFiles/LAB_3_DZ4.dir/flags.make
-CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.obj: ../Privilegovani.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB_3_DZ4.dir\Privilegovani.cpp.obj -c C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Privilegovani.cpp
+CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.obj: CMakeFiles/LAB_3_DZ4.dir/flags.make
+CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.obj: ../Mec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB_3_DZ4.dir\Mec.cpp.obj -c C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Mec.cpp
 
-CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Privilegovani.cpp > CMakeFiles\LAB_3_DZ4.dir\Privilegovani.cpp.i
+CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Mec.cpp > CMakeFiles\LAB_3_DZ4.dir\Mec.cpp.i
 
-CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Privilegovani.cpp -o CMakeFiles\LAB_3_DZ4.dir\Privilegovani.cpp.s
-
-CMakeFiles/LAB_3_DZ4.dir/Par.cpp.obj: CMakeFiles/LAB_3_DZ4.dir/flags.make
-CMakeFiles/LAB_3_DZ4.dir/Par.cpp.obj: ../Par.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LAB_3_DZ4.dir/Par.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LAB_3_DZ4.dir\Par.cpp.obj -c C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Par.cpp
-
-CMakeFiles/LAB_3_DZ4.dir/Par.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LAB_3_DZ4.dir/Par.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Par.cpp > CMakeFiles\LAB_3_DZ4.dir\Par.cpp.i
-
-CMakeFiles/LAB_3_DZ4.dir/Par.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_3_DZ4.dir/Par.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Par.cpp -o CMakeFiles\LAB_3_DZ4.dir\Par.cpp.s
+CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\Mec.cpp -o CMakeFiles\LAB_3_DZ4.dir\Mec.cpp.s
 
 # Object files for target LAB_3_DZ4
 LAB_3_DZ4_OBJECTS = \
 "CMakeFiles/LAB_3_DZ4.dir/main.cpp.obj" \
 "CMakeFiles/LAB_3_DZ4.dir/Tim.cpp.obj" \
-"CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.obj" \
-"CMakeFiles/LAB_3_DZ4.dir/Par.cpp.obj"
+"CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.obj"
 
 # External object files for target LAB_3_DZ4
 LAB_3_DZ4_EXTERNAL_OBJECTS =
 
 LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/main.cpp.obj
 LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/Tim.cpp.obj
-LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.obj
-LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/Par.cpp.obj
+LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.obj
 LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/build.make
 LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/linklibs.rsp
 LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/objects1.rsp
 LAB_3_DZ4.exe: CMakeFiles/LAB_3_DZ4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LAB_3_DZ4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Pavle\CLionProjects\Vezba\LAB_3_DZ4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LAB_3_DZ4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LAB_3_DZ4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

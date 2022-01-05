@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Par.cpp" "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/cmake-build-debug/CMakeFiles/LAB_3_DZ4.dir/Par.cpp.obj"
-  "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Privilegovani.cpp" "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/cmake-build-debug/CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.obj"
+  "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Mec.cpp" "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/cmake-build-debug/CMakeFiles/LAB_3_DZ4.dir/Mec.cpp.obj"
   "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/Tim.cpp" "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/cmake-build-debug/CMakeFiles/LAB_3_DZ4.dir/Tim.cpp.obj"
   "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/main.cpp" "C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/cmake-build-debug/CMakeFiles/LAB_3_DZ4.dir/main.cpp.obj"
   )
