@@ -5,7 +5,7 @@
 using namespace std;
 #include <iostream>
 class Igrac {
-private:
+protected:
     string ime;
     int vrednost=1000;
 

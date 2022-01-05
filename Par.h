@@ -19,11 +19,11 @@ protected:
 
 public:
 
-    T* dohvPod1(){
+    T dohvPod1(){
         return s.pod1;
     }
 
-    T* dohvPod2(){
+    T dohvPod2(){
         return s.pod2;
     }
 
