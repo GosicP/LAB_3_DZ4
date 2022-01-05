@@ -142,6 +142,60 @@ LAB_3_DZ4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/build
 .PHONY : LAB_3_DZ4/fast
 
+Par.obj: Par.cpp.obj
+
+.PHONY : Par.obj
+
+# target to build an object file
+Par.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/Par.cpp.obj
+.PHONY : Par.cpp.obj
+
+Par.i: Par.cpp.i
+
+.PHONY : Par.i
+
+# target to preprocess a source file
+Par.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/Par.cpp.i
+.PHONY : Par.cpp.i
+
+Par.s: Par.cpp.s
+
+.PHONY : Par.s
+
+# target to generate assembly for a file
+Par.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/Par.cpp.s
+.PHONY : Par.cpp.s
+
+Privilegovani.obj: Privilegovani.cpp.obj
+
+.PHONY : Privilegovani.obj
+
+# target to build an object file
+Privilegovani.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.obj
+.PHONY : Privilegovani.cpp.obj
+
+Privilegovani.i: Privilegovani.cpp.i
+
+.PHONY : Privilegovani.i
+
+# target to preprocess a source file
+Privilegovani.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.i
+.PHONY : Privilegovani.cpp.i
+
+Privilegovani.s: Privilegovani.cpp.s
+
+.PHONY : Privilegovani.s
+
+# target to generate assembly for a file
+Privilegovani.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB_3_DZ4.dir\build.make CMakeFiles/LAB_3_DZ4.dir/Privilegovani.cpp.s
+.PHONY : Privilegovani.cpp.s
+
 Tim.obj: Tim.cpp.obj
 
 .PHONY : Tim.obj
@@ -205,6 +259,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LAB_3_DZ4
+	@echo ... Par.obj
+	@echo ... Par.i
+	@echo ... Par.s
+	@echo ... Privilegovani.obj
+	@echo ... Privilegovani.i
+	@echo ... Privilegovani.s
 	@echo ... Tim.obj
 	@echo ... Tim.i
 	@echo ... Tim.s

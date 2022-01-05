@@ -2,6 +2,7 @@
 using namespace std;
 #include "Igrac.h"
 #include "Tim.h"
+#include "Privilegovani.h"
 int main() {
     bool proba;
     Igrac *i1=new Igrac("Pavle", 600);
@@ -9,6 +10,7 @@ int main() {
     Igrac *i3=new Igrac("Anastasija", 1000);
     Tim t1("Tim 1", 5);
     Tim t2("Tim 1", 5);
+    Privilegovani pt("Privilegovani tim 1", 5, 500);
     //i1->promeniVrednost(20);
     cout<<*i1<<endl;
     proba=(*i1==*i2);
@@ -26,6 +28,11 @@ int main() {
     t2.prikljuciIgraca(1, i3);
     proba=(t1==t2); //iz nekog razloga tim ima vise maks igraca?
     cout<<proba<<endl;
+    pt.prikljuciPrivilegovanom(0, i2);
+    pt.prikljuciPrivilegovanom(2, i1);
+    pt.prikljuciPrivilegovanom(1, i3);
+    cout<<pt;
+
 
     return 0;
 }

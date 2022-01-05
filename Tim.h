@@ -5,7 +5,7 @@
 #include "Igrac.h"
 
 class Tim {
-private:
+protected:
 
     string naziv;
     int maks_broj_igraca, broj_igraca=0;
