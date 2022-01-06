@@ -7,8 +7,8 @@
 void Mec::odigrajMec() {
     Tim *tim_domacin=this->par_timova.dohvPod1();
     Tim *tim_gost=this->par_timova.dohvPod2();
-    int poeni_domaci=this->par_poena.dohvPod1();
-    int poeni_gosti=this->par_poena.dohvPod2();
+    int poeni_domaci=0;
+    int poeni_gosti=0;
 
     if(tim_domacin->dohvVrednostTima()>tim_gost->dohvVrednostTima()){
         ishod=POBEDA_DOMACIN;

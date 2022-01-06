@@ -23,10 +23,9 @@ protected:
 
 public:
 
-    Mec(Tim* tim_domacin, Tim* tim_gost){
-        par_timova.postaviPod1(tim_domacin);
-        par_timova.postaviPod2(tim_gost);
-    }
+    Mec(Tim* tim_domacin, Tim* tim_gost)
+            : par_timova(tim_domacin, tim_gost), par_poena(0, 0) {}
+
 
     void odigrajMec();
 
@@ -39,7 +38,7 @@ public:
     }
 
     Par<int> dohvParPoena(){
-        return this->par_poena;
+        return par_poena;
     }
 
     friend ostream& operator << (ostream& os, Mec & m){
