@@ -6,7 +6,7 @@ using namespace std;
 #include "Mec.h"
 int main() {
     bool proba;
-    Par<int> par_poenaa(0,0);
+    Par<long int> par_poenaa(0,0);
     Igrac *i1=new Igrac("Pavle", 600);
     Igrac *i2=new Igrac("Petar", 800);
     Igrac *i3=new Igrac("Anastasija", 1000);
@@ -45,17 +45,23 @@ int main() {
     t2->prikljuciIgraca(2, i1);
     t2->prikljuciIgraca(1, i4);
 
-    Mec m(t1, t2);
+    //cout<<*t1<<endl;
 
-    m.odigrajMec();
+    //cout<<*t2;
 
-    proba=m.proveriDaLiJeOdigranMec();
+    Mec *m=new Mec(*t1, *t2);
 
-    cout<<proba<<endl;
+    m->odigrajMec();
 
-    par_poenaa=m.dohvParPoena();
+    //proba=m->proveriDaLiJeOdigranMec();
+
+    //cout<<proba<<endl;
+
+    par_poenaa=m->dohvParPoena();
 
     cout<<par_poenaa;
+
+    cout<<*m;
 
 
     return 0;

@@ -9,7 +9,7 @@ protected:
 
     string naziv;
     int maks_broj_igraca, broj_igraca=0;
-    double vrednost_tima;
+    double vrednost_tima=0;
     Igrac** niz;
 
     virtual void pisi(ostream &os){
@@ -28,9 +28,9 @@ public:
 
     Tim(string name, int max_players);
 
-    Tim(const Tim& t);
-    Tim( Tim&& t);
-    ~Tim();
+    //Tim(const Tim& t);
+    //Tim( Tim&& t);
+    //~Tim();
 
     void prikljuciIgraca(int i, Igrac *player){
         niz[i]=player;

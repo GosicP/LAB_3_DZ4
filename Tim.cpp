@@ -4,21 +4,22 @@
 
 #include "Tim.h"
 
-Tim::Tim(const Tim &t) {
+/*Tim::Tim(const Tim &t) {
     niz=new Igrac*[t.maks_broj_igraca];
-    for (int i=0; i<maks_broj_igraca; i++){
+    for (int i=0; i<t.maks_broj_igraca; i++){
         niz[i]=t.niz[i];
     }
-}
+}*/
 
-Tim::Tim( Tim &&t)  {
+/*Tim::Tim( Tim &&t)  {
     niz=t.niz;
     maks_broj_igraca=t.maks_broj_igraca;
-}
+    t.niz=nullptr;
+}*/
 
-Tim::~Tim() {
+/*Tim::~Tim() {
     delete[] niz;
-}
+}*/
 
 Tim::Tim(string name, int max_players) {
     niz=new Igrac*[max_players];

@@ -7,14 +7,14 @@ class Mec {
 
 private:
 
-    Par<Tim*> par_timova;
-    Par<int> par_poena;
+    Par<Tim> par_timova;
+    Par<long int> par_poena;
     enum stanje{POBEDA_DOMACIN, NERESENO, POBEDA_GOST};
     stanje ishod;
 
 protected:
 
-    virtual void pisi(ostream&os){
+    virtual void pisi(ostream& os){
         os<<par_timova<<endl;
         if(proveriDaLiJeOdigranMec()){
             os<<ishod<<endl;
@@ -23,7 +23,7 @@ protected:
 
 public:
 
-    Mec(Tim* tim_domacin, Tim* tim_gost)
+    Mec(Tim tim_domacin, Tim tim_gost)
             : par_timova(tim_domacin, tim_gost), par_poena(0, 0) {}
 
 
@@ -37,12 +37,13 @@ public:
         }
     }
 
-    Par<int> dohvParPoena(){
+    Par<long int> dohvParPoena(){
         return par_poena;
     }
 
-    friend ostream& operator << (ostream& os, Mec & m){
+    friend ostream& operator << (ostream& os, Mec &m){
         m.pisi(os);
+
         return os;
     }
 
