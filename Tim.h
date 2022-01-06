@@ -29,7 +29,7 @@ public:
     Tim(string name, int max_players);
 
     Tim(const Tim& t);
-    Tim(const Tim&& t);
+    Tim( Tim&& t);
     ~Tim();
 
     void prikljuciIgraca(int i, Igrac *player){

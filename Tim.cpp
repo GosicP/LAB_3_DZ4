@@ -11,7 +11,7 @@ Tim::Tim(const Tim &t) {
     }
 }
 
-Tim::Tim(const Tim &&t)  {
+Tim::Tim( Tim &&t)  {
     niz=t.niz;
     maks_broj_igraca=t.maks_broj_igraca;
 }

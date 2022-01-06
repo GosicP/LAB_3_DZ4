@@ -20,6 +20,14 @@ protected:
 
 public:
 
+
+    Par( Par&& p){
+        s.pod1=p.s.pod1;
+        s.pod2=p.s.pod2;
+
+        p.s.pod1=p.s.pod2=nullptr;
+    };
+
     Par(T& pod11, T& pod22) {
         s.pod1 = &pod11;
         s.pod2 = &pod22;
