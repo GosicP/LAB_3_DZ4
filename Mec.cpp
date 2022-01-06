@@ -12,8 +12,10 @@ void Mec::odigrajMec() {
 
     if(tim_domacin->dohvVrednostTima()>tim_gost->dohvVrednostTima()){
         ishod=POBEDA_DOMACIN;
-        poeni_domaci=poeni_domaci+3;
+        poeni_domaci=3;
+        poeni_gosti=0;
         this->par_poena.postaviPod1(poeni_domaci);
+        this->par_poena.postaviPod2(poeni_gosti);
 
         for(int i=0; i<tim_domacin->getBrojIgraca(); i++){
             tim_domacin->dohvIgraca(i).promeniVrednost(10);
@@ -27,8 +29,10 @@ void Mec::odigrajMec() {
     if(tim_domacin->dohvVrednostTima()<tim_gost->dohvVrednostTima()){
         ishod=POBEDA_GOST;
 
-        poeni_gosti=poeni_gosti+3;
-        this->par_poena.postaviPod1(poeni_gosti);
+        poeni_gosti=3;
+        poeni_domaci=0;
+        this->par_poena.postaviPod2(poeni_gosti);
+        this->par_poena.postaviPod1(poeni_domaci);
 
         for(int i=0; i<tim_domacin->getBrojIgraca(); i++){
             tim_domacin->dohvIgraca(i).promeniVrednost(-10);
@@ -41,8 +45,8 @@ void Mec::odigrajMec() {
 
     if(tim_domacin->dohvVrednostTima()==tim_gost->dohvVrednostTima()){
         ishod=NERESENO;
-        poeni_domaci=poeni_domaci+1;
-        poeni_gosti=poeni_gosti+1;
+        poeni_domaci=1;
+        poeni_gosti=1;
 
         this->par_poena.postaviPod1(poeni_domaci);
         this->par_poena.postaviPod2(poeni_gosti);

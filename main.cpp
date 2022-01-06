@@ -3,16 +3,20 @@ using namespace std;
 #include "Igrac.h"
 #include "Tim.h"
 #include "Privilegovani.h"
+#include "Mec.h"
 int main() {
     bool proba;
     Igrac *i1=new Igrac("Pavle", 600);
     Igrac *i2=new Igrac("Petar", 800);
     Igrac *i3=new Igrac("Anastasija", 1000);
-    Tim t1("Tim 1", 5);
-    Tim t2("Tim 1", 5);
+    Igrac *i4=new Igrac("Djordje", 1200);
+    Tim *t1=new Tim("Tim Domacin", 5);
+    Tim *t2=new Tim("Tim Gost", 5);
     Privilegovani pt("Privilegovani tim 1", 5, 500);
+
+    Mec m(t1, t2);
     //i1->promeniVrednost(20);
-    cout<<*i1<<endl;
+    /*cout<<*i1<<endl;
     proba=(*i1==*i2);
     cout<<proba<<endl;
     t1.prikljuciIgraca(0, i2);
@@ -31,7 +35,20 @@ int main() {
     pt.prikljuciPrivilegovanom(0, i2);
     pt.prikljuciPrivilegovanom(2, i1);
     pt.prikljuciPrivilegovanom(1, i3);
-    cout<<pt;
+    cout<<pt;*/
+    t1->prikljuciIgraca(0, i2);
+    t1->prikljuciIgraca(2, i1);
+    t1->prikljuciIgraca(1, i3);
+
+    t2->prikljuciIgraca(0, i2);
+    t2->prikljuciIgraca(2, i1);
+    t2->prikljuciIgraca(1, i4);
+
+    m.odigrajMec();
+
+    proba=m.proveriDaLiJeOdigranMec();
+
+    cout<<proba;
 
 
     return 0;
