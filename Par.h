@@ -19,20 +19,29 @@ protected:
 
 public:
 
+    Par(T& pod11, T& pod22) {
+        s.pod1 = &pod11;
+        s.pod2 = &pod22;
+    }
+
+    Par(T&& pod11, T&& pod22) {
+        Par(pod11, pod22);
+    }
+
     T dohvPod1(){
-        return s.pod1;
+        return *s.pod1;
     }
 
     T dohvPod2(){
-        return s.pod2;
+        return *s.pod2;
     }
 
     void postaviPod1(T& podatak){
-        s.pod1=podatak;
+        s.pod1=&podatak;
     }
 
     void postaviPod2(T& podatak){
-        s.pod2=podatak;
+        s.pod2=&podatak;
     }
 
     bool operator == (Par& par2){

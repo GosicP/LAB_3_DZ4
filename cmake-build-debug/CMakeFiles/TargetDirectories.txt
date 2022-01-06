@@ -1,3 +1,3 @@
-C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/cmake-build-debug/CMakeFiles/LAB_3_DZ4.dir
-C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Pavle/CLionProjects/Vezba/LAB_3_DZ4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zeljk/OneDrive - student.etf.bg.ac.rs/Documents/GitHub/LAB_3_DZ4/cmake-build-debug/CMakeFiles/LAB_3_DZ4.dir
+C:/Users/zeljk/OneDrive - student.etf.bg.ac.rs/Documents/GitHub/LAB_3_DZ4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/zeljk/OneDrive - student.etf.bg.ac.rs/Documents/GitHub/LAB_3_DZ4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
