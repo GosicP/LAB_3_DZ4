@@ -18,15 +18,40 @@ protected:
         os<<"["<<*s.pod1<<"-"<<*s.pod2<<"]";
     }
 
-public:
+    void kopiraj(const Par& p){
+        T prvi=*p.s.pod1;
+        T drugi=*p.s.pod2;
+        s.pod1=&prvi;
+        s.pod2=&drugi;
+    }
 
-
-    Par( Par&& p){
+    void premesti (Par&& p){
         s.pod1=p.s.pod1;
         s.pod2=p.s.pod2;
 
         p.s.pod1=p.s.pod2=nullptr;
+    }
+
+public:
+
+    Par(const Par& p){
+        kopiraj(p);
     };
+
+    Par( Par&& p){
+       premesti(p);
+
+    };
+
+    Par& operator=(const Par& p){
+        kopiraj(p);
+        return *this;
+    }
+
+    Par& operator=(Par&& p){
+        premesti(p);
+        return *this;
+    }
 
     Par(T& pod11, T& pod22) {
         s.pod1 = &pod11;
@@ -34,7 +59,10 @@ public:
     }
 
     Par(T&& pod11, T&& pod22) {
-        Par(pod11, pod22);
+        T prvi=pod11;
+        T drugi= pod22;
+        s.pod1=&prvi;
+        s.pod2=&drugi;
     }
 
 
