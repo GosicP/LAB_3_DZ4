@@ -51,7 +51,7 @@ int main() {
 
     proba=m.proveriDaLiJeOdigranMec();
 
-    cout<<proba;
+    cout<<proba<<endl;
 
     par_poenaa=m.dohvParPoena();
 
