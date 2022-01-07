@@ -5,19 +5,24 @@
 #include "Tim.h"
 
 /*Tim::Tim(const Tim &t) {
-    niz=new Igrac*[t.maks_broj_igraca];
+    naziv=t.naziv;
+    maks_broj_igraca=t.maks_broj_igraca;
+    broj_igraca=t.broj_igraca;
+    //niz=new Igrac*[t.maks_broj_igraca];
     for (int i=0; i<t.maks_broj_igraca; i++){
         niz[i]=t.niz[i];
     }
-}*/
+}
 
-/*Tim::Tim( Tim &&t)  {
+Tim::Tim( Tim &&t)  {
     niz=t.niz;
     maks_broj_igraca=t.maks_broj_igraca;
+    broj_igraca=t.broj_igraca;
+    naziv=t.naziv;
     t.niz=nullptr;
-}*/
+}
 
-/*Tim::~Tim() {
+Tim::~Tim() {
     delete[] niz;
 }*/
 

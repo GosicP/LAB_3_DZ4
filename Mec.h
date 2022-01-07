@@ -17,7 +17,17 @@ protected:
     virtual void pisi(ostream& os){
         os<<par_timova<<endl;
         if(proveriDaLiJeOdigranMec()){
-            os<<ishod<<endl;
+            switch(ishod){
+                case 0:
+                    os<<"POBEDA_DOMACIN";
+                    break;
+                case 1:
+                    os<<"NERESENO";
+                    break;
+                case 2:
+                    os<<"POBEDA_GOST";
+                    break;
+            }
         }
     }
 

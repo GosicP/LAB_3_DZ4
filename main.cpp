@@ -44,11 +44,11 @@ int main() {
     t2->prikljuciIgraca(2, i1);
     t2->prikljuciIgraca(1, i3);
 
-    cout<<*t1<<endl;
+    //cout<<*t1<<endl;
 
-    cout<<*t2;
+    //cout<<*t2;
 
-    /*Mec *m=new Mec(*t1, *t2);
+    Mec *m=new Mec(*t1, *t2);
 
     m->odigrajMec();
 
@@ -58,7 +58,7 @@ int main() {
 
     cout<<par_poenaa;
 
-    cout<<*m;*/
+    cout<<*m;
 
 
     return 0;
