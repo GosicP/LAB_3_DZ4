@@ -25,6 +25,9 @@ Tim::Tim(string name, int max_players) {
     niz=new Igrac*[max_players];
     naziv=name;
     maks_broj_igraca=max_players;
+    for(int i=0; i<maks_broj_igraca; i++){
+        niz[i]=nullptr;
+    }
 }
 
 int Tim::getBrojIgraca() const {

@@ -12,13 +12,19 @@ protected:
     double vrednost_tima=0;
     Igrac** niz;
 
+
+
     virtual void pisi(ostream &os){
+        int br=0;
         os<<naziv<<"[";
-        for (int i=0; i<broj_igraca; i++){
-            if(i!=broj_igraca-1){
-                os<<*niz[i]<<",";
-            }else{
-                os<<*niz[i];
+        for (int i=0; i<maks_broj_igraca; i++){
+            if (niz[i]!=nullptr){
+                if (br!=broj_igraca-1) { // proveri nekako da ne ispisuje prazna polja ako igrac ne postoji, izbacuje problem ako je mesto u nizu prazno
+                    os << *niz[i] << ",";
+                } else {
+                    os << *niz[i];
+                }
+                br++;
             }
         }
         os<<"]";

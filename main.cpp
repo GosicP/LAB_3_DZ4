@@ -5,7 +5,6 @@ using namespace std;
 #include "Privilegovani.h"
 #include "Mec.h"
 int main() {
-    bool proba;
     Par<long int> par_poenaa(0,0);
     Igrac *i1=new Igrac("Pavle", 600);
     Igrac *i2=new Igrac("Petar", 800);
@@ -39,29 +38,27 @@ int main() {
 
     t1->prikljuciIgraca(0, i2);
     t1->prikljuciIgraca(2, i1);
-    t1->prikljuciIgraca(1, i3);
+    t1->prikljuciIgraca(1, i4);
 
     t2->prikljuciIgraca(0, i2);
     t2->prikljuciIgraca(2, i1);
-    t2->prikljuciIgraca(1, i4);
+    t2->prikljuciIgraca(1, i3);
 
-    //cout<<*t1<<endl;
+    cout<<*t1<<endl;
 
-    //cout<<*t2;
+    cout<<*t2;
 
-    Mec *m=new Mec(*t1, *t2);
+    /*Mec *m=new Mec(*t1, *t2);
 
     m->odigrajMec();
 
-    //proba=m->proveriDaLiJeOdigranMec();
 
-    //cout<<proba<<endl;
 
     par_poenaa=m->dohvParPoena();
 
     cout<<par_poenaa;
 
-    cout<<*m;
+    cout<<*m;*/
 
 
     return 0;
